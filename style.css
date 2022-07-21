@@ -1,0 +1,363 @@
+header {
+    position: sticky;
+  top:0%;
+  left: 0%;
+  border: 1px solid white;
+  background-color: white;
+  opacity: .8;
+  }
+  .navigation {
+      display: flex;
+      position: sticky;
+  }
+  .docplanner-logo {
+      width: 70%;
+      display: block;
+      margin-block-start: 2%;
+      margin-block-end: 2%;
+      margin-inline-start: 2%;
+      margin-inline-end: 2%;}
+  .docplanner-logo img {
+      width:35%;
+  }
+  .nav-links {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.nav-links a {
+    text-decoration: none;
+    color: grey;
+    margin:18px;
+}
+.img2{
+  text-align: center;
+width: 100%;
+height: auto;  
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+ .text{
+  color: #00b39b;
+  font-size: 50px;
+  font-weight: 400;
+
+ } 
+ .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 0 auto;
+    box-sizing: inherit;
+}
+
+.grid p{
+width: 50%;    
+float: left;
+}
+
+.col{
+    text-align: start;
+    font-size: 30px;
+    padding: 10px;
+    font-family: arial,sans-serif;
+
+}
+img{
+    width: 24px;
+    
+}
+.services {
+    display: flex;
+    width: 100%;
+  }
+  .service-card-for {
+    padding: 20px;
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px;
+  }
+  .service-card-title {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px;
+    color: #fff;
+  }
+  .service-card-patients {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #00ccb1;
+    text-decoration: ivory;
+  }
+  .service-card-doctors {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: #3d83df;
+    text-decoration: ivory;
+  }
+  .service-card-clinics {
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #1b2734;
+    text-decoration: ivory;
+  }
+  .service-card-content {
+    padding-top: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+  }
+  
+  .dropdown-content a {
+    color: #747474;
+    line-height: 120%;
+    padding: 12px 16px !important;
+    text-decoration: none;
+    display: block;
+  }
+  .brand{
+    margin: 2.5rem auto 3.125rem;
+    display: flex;
+    flex-basis: 1;
+    font-size: 1.625rem;
+    font-weight: 300;
+  }
+  .brand h1{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    text-align: start;
+    font-weight: 300;
+}
+.brand-logo{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+.brand-logo li{
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: auto;
+}
+.brand-logo a{
+    display: inline-block;
+    padding: 5px;
+}
+.brand-logo a svg{
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+.section {
+  display: flex;
+  background-color: #beebe5;
+  margin: 0;
+  min-height: 1px;
+  padding: 10px;
+  overflow: hidden;
+justify-content: space-between;
+}
+.intro-box h1{
+  color: #00b39b;
+text-align: start;
+font-size: 2.125rem;
+}
+.intro-box p{
+  max-width: 415px;
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.7142;
+  margin: 1.6em 0;
+  text-align: start;
+  color: gray;
+}
+
+.boxes4 {
+  display: flex;
+width: 50%;
+float: left;
+
+}
+.boxes4 p{
+  color: grey;
+}
+.box1-3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 0.3px;
+  text-align: end;
+}
+
+.box2-4 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+   
+}
+.box1-1 {
+  
+  margin: 10px;
+  background-color: white;
+  padding-bottom: 100px;
+  margin-left: 50px;
+  width: 200px;
+  text-align: center;
+  padding-top: 70px;
+  
+}
+.box2-2 {
+  margin: 10px;
+  background-color: white;
+  padding-bottom: 150px;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 70px;
+  width: 200px;
+
+}
+.box3-3 {
+  margin: 10px;
+  background-color: white;
+  padding-bottom: 150px;
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 70px;
+  width: 200px;
+
+}
+.box4-4 {
+  margin: 20px;
+  background-color: white;
+  padding-bottom: 150px;
+  text-align: center;
+  padding-top: 70px;
+  width: 200px;
+
+}
+h4{
+  color: #00b39b;
+  font-size: 20px;
+}
+.section5{
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+.section5 h1{
+  font-size: 2.1428571429em;
+  color: #00b39b;
+}
+.section5 p{
+  line-height: 1.7142857143;
+  margin: 1.6em 0;
+  color: grey;
+}
+#countries{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: center;
+}
+.country{
+align-content: stretch;
+margin: 20px;
+border: 1px solid #88888813;
+}
+.img3{
+  width: 100%;
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  height: 30px;
+    margin-top: 20px;
+    background-color: #3d83df;
+    color: white;
+    border-radius: 7px;
+    box-shadow: black;
+    border: 0;
+}
+.join{
+  max-width: 1015px;
+    margin: 5rem auto;
+    padding: 0 20px;
+    position: relative;
+}
+h1{
+  font-size: 2.1428571429em;
+  color: #333;
+  margin-bottom: 0.75em;
+}
+.btn{
+  background-color: #3d83df;
+  padding: 1.1666666667em 1.5em;
+  font-family: Roboto,Arial,sans-serif;
+  line-height: 1em;
+  color: white;
+  text-align: center;
+text-decoration: none;
+font-weight: 700;
+}
+.footer{
+  border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+p{
+  margin-bottom: 0.4em;
+  font-size: 20px;
+  color: grey;
+  margin: 1.6em 0;
+}
+a{
+  color: #3d83df;
+  outline: 0;
+  transition: all .2s ease 0s;
+text-decoration: none;
+}
+
+
